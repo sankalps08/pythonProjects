@@ -22,4 +22,5 @@ def verify(index):
 numbers = [1,3,6,8,9,14,20,25,30]
 
 result = binary_search(numbers,10)
+
 verify(result)
