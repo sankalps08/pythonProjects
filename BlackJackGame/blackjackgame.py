@@ -7,6 +7,7 @@ class Card:  #this is  the card class in this we will define suit of the card an
       self.suit = suit
       self.rank = rank 
       
+      
     def __str__(self) -> str: #this is a string function or method in which we will right the statement we want to see when we choose card from the deck
       return f"{self.rank['rank']} of {self.suit}"
      # we have used f string to combine and putting value of suit and rank in the statement
